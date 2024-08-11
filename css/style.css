@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.cart-icon {
+  position: relative;
+}
+
+#cart-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 0;
+  background-image: url("../images/Free\ \ Mysterious\,\ Light\,\ Spark\ Background\ Images\,\ Metallic\ Black\ Background\ Photo\ Background\ PNG\ and\ Vectors.jpeg");
+  background-size: cover;
+  color: white;
+}
+.featured-products {
+  padding: 20px;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  /* display: block; */
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+.social-media a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.product-gallery {
+  width: 50%;
+  float: left;
+}
+.product-details {
+  width: 50%;
+  float: right;
+}
+
+/* .product {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  /* display: block; */
+/* margin-bottom: 10px; */
+
+#add-to-cart {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-items {
+  width: 70%;
+  float: left;
+}
+.cart-summary {
+  width: 30%;
+  float: right;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+#checkout {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#checkout-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.billing-info,
+.shipping-info,
+.payment-info {
+  margin-bottom: 20px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+button[type="submit"] {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}

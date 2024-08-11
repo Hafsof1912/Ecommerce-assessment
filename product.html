@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Available product</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo"></div>
+      <img src="./images/icon.png" alt="" />
+      <nav>
+        <ul>
+          <li><a href="./home.html">Home</a></li>
+          <li><a href="./shop.html">Shop</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <input type="text" placeholder="Search..." />
+      <div class="cart-icon">
+        <i class="fas fa-shopping-cart"></i>
+        <span id="cart-count">0</span>
+      </div>
+    </header>
+
+    <section class="hero">
+      <!-- <img src="images/hero.jpg" alt="Hero Image" /> -->
+      <h1>Welcome to Hafsohbee store</h1>
+    </section>
+
+    <div class="product-gallery">
+      <!-- Product images will be dynamically inserted -->
+    </div>
+    <div class="product-details">
+      <h1>Product Title</h1>
+      <p>Description of the product.</p>
+      <p>Price: $<span id="price">100</span></p>
+      <button id="add-to-cart">Add to Cart</button>
+    </div>
+
+    <footer>
+      <div class="social-media">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="contact-info">
+        <p>Email: info@hafsohbee.com</p>
+        <p>Phone: +123456789</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

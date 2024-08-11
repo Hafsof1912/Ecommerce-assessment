@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>checkout page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo"></div>
+      <img src="./images/icon.png" alt="" />
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="./shop.html">Shop</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <input type="text" placeholder="Search..." />
+      <div class="cart-icon">
+        <i class="fas fa-shopping-cart"></i>
+        <span id="cart-count">0</span>
+      </div>
+    </header>
+
+    <form id="checkout-form">
+      <div class="billing-info">
+        <h2>Billing Information</h2>
+        <input type="text" placeholder="Name" />
+        <input type="text" placeholder="Address" />
+        <input type="email" placeholder="Email" />
+        <input type="tel" placeholder="Phone" />
+      </div>
+      <div class="shipping-info">
+        <h2>Shipping Information</h2>
+        <input type="checkbox" id="same-as-billing" /> Same as billing
+        <input type="text" placeholder="Name" />
+        <input type="text" placeholder="Address" />
+        <input type="email" placeholder="Email" />
+        <input type="tel" placeholder="Phone" />
+      </div>
+      <div class="payment-info">
+        <h2>Payment Information</h2>
+        <input type="text" placeholder="Credit Card Number" />
+        <input type="text" placeholder="Expiration Date" />
+        <input type="text" placeholder="CVV" />
+      </div>
+      <div class="order-summary">
+        <h2>Order Summary</h2>
+        <p>Total: $<span id="order-total">0</span></p>
+      </div>
+      <button type="submit">Place Order</button>
+    </form>
+
+    <hr width="2px" />
+    <footer>
+      <div class="social-media">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="contact-info">
+        <p>Email: info@hafsohbee.com</p>
+        <p>Phone: +123456789</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
